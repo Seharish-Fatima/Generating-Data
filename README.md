@@ -108,9 +108,7 @@ It’s proof that **data doesn’t have to be boring** — it can be **chaotic, 
 
 ## 📁 Project Files
 
-- `Generating Data.ipynb` — *The Notebook of Wonders™*  
-- `random_walk.py` — Custom class for our wanderlust plots  
-- `die.py` — Class for simulating 6-sided dice rolls
+- `Generating Data.ipynb` — *The Notebook of Wonders™*
 
 ---
 
