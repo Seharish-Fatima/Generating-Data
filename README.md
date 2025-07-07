@@ -44,3 +44,77 @@ Next, we scaled up:
 x_values = list(range(1, 1001))
 y_values = [x**2 for x in x_values]
 ```
+### 3. 🎢 Cubic Chaos: 5000 Points
+
+When squares weren’t enough, we leveled up to **cube values** for 5000 data points.  
+Then we learned the hard way that setting axis limits to `[0, 1_100_000]` while plotting values up to **125,000,000,000** is a one-way ticket to *Why-Is-My-Plot-Blank Land* 😩  
+Fixed it by letting `matplotlib` breathe and autoscale like a free spirit.
+
+---
+
+### 4. 🎲 Rolling Dice Like a Nerdy Gambler
+
+Simulated **1000 rolls** of a **6-sided die** using a custom `Die` class.  
+Counted frequencies and visualized the results using `plotly.express` — now the results **pop like candy** 🍬
+
+> 💡 Pro tip:  
+> Set `pio.renderers.default = 'notebook'` or `'browser'` to make Plotly behave inside Jupyter! Otherwise, it acts like it doesn’t even go here.
+
+---
+
+### 5. 🌀 Random Walks: Drunken Pixels
+
+Generated chaotic walks using a `RandomWalk` class.  
+Plotted them in **moody `dark_background` style** with `s=3` dot sizes for aesthetic drift vibes ✨  
+Even included a loop that lets you generate infinite walks until your soul begs for mercy:
+
+```python
+while True:
+    # generate walk
+    # plot it
+    # ask: Make another walk? (Y/N)
+```
+
+---
+
+## 🧠 Lessons Learned
+
+- Always check axis limits — they will betray you.
+- Plotly needs renderer setup or it ghosts you like a toxic ex.
+- `matplotlib` will throw warnings if you give it `cmap` with no `c`. It’s petty like that.
+- Gradients make everything better. Like, literally everything.
+- Writing your own class (like `Die` or `RandomWalk`) makes simulations so much cleaner and reusable.
+
+---
+
+## 🌈 What I'd Add Next
+
+- 🎥 Animations of the random walk evolving in real time  
+- 🧩 More interactive controls using `ipywidgets`  
+- 🎲 Dual dice simulations & probability comparisons  
+- 📁 Exporting results to CSV or dashboards  
+- 🎨 Mood-based color palettes (pastel chaos, villain arc, etc.)
+
+---
+
+## 🧚‍♀️ Final Vibe Check
+
+This project was a ✨vibe✨ from start to finish — combining math, randomness, plotting, and aesthetic design choices.  
+It’s proof that **data doesn’t have to be boring** — it can be **chaotic, dramatic, and beautiful**.
+
+> *"Data is just pixels waiting for meaning."* — Me, just now
+
+---
+
+## 📁 Project Files
+
+- `Generating Data.ipynb` — *The Notebook of Wonders™*  
+- `random_walk.py` — Custom class for our wanderlust plots  
+- `die.py` — Class for simulating 6-sided dice rolls
+
+---
+
+Wanna collab on weird Python plots? Let’s talk.  
+Wanna steal this code? Go ahead.  
+Wanna turn this into a portfolio project? **DO IT**.  
+Just don’t forget to make your plots ✨pretty✨.
